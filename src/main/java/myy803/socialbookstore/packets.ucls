@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="myy803.socialbookstore.datamodel.searchstrategies" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/datamodel/searchstrategies" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="206" y="243"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="myy803.socialbookstore.mappers" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/mappers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="256" x="513" y="550"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="myy803.socialbookstore.config" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/config" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="611" y="255"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="myy803.socialbookstore.controllers" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/controllers" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="719" y="106"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="myy803.socialbookstore.datamodel.recomstrategies" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/datamodel/recomstrategies" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="55" width="387" x="818" y="265"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="myy803.socialbookstore.services" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/services" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="611" y="357"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="myy803.socialbookstore.formsdata" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/formsdata" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="265" x="534" y="455"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="myy803.socialbookstore" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="199" y="82"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="myy803.socialbookstore.datamodel" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/datamodel" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="650" y="740"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="370" y="360"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="15">    
+    <bendpoint x="349" y="360"/>    
+    <bendpoint x="349" y="455"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="16">    
+    <bendpoint x="829" y="360"/>    
+    <bendpoint x="880" y="491"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="459" y="474"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="18">    
+    <bendpoint x="766" y="265"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="19">    
+    <bendpoint x="428" y="450"/>    
+    <bendpoint x="441" y="569"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="20">    
+    <bendpoint x="1235" y="265"/>    
+    <bendpoint x="1235" y="360"/>    
+    <bendpoint x="1235" y="455"/>    
+    <bendpoint x="1235" y="550"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="22">    
+    <bendpoint x="808" y="360"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="23">    
+    <bendpoint x="900" y="356"/>    
+    <bendpoint x="902" y="457"/>    
+    <bendpoint x="931" y="595"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="24">    
+    <bendpoint x="787" y="265"/>    
+    <bendpoint x="787" y="360"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="27">    
+    <bendpoint x="328" y="360"/>    
+    <bendpoint x="328" y="455"/>    
+    <bendpoint x="328" y="550"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="28">    
+    <bendpoint x="890" y="574"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

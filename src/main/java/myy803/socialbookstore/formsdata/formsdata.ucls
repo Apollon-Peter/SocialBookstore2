@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="myy803.socialbookstore.formsdata.BookDto" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/formsdata/BookDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="412" width="391" x="-120" y="43"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="myy803.socialbookstore.formsdata.UserProfileDto" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/formsdata/UserProfileDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="412" width="456" x="311" y="43"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="myy803.socialbookstore.formsdata.RecommendationsDto" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/formsdata/RecommendationsDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="340" x="807" y="43"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="myy803.socialbookstore.formsdata.SearchDto" project="socialbookstore" 
+    file="/socialbookstore/src/main/java/myy803/socialbookstore/formsdata/SearchDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="987" y="467"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
